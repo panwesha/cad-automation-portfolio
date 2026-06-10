@@ -22,3 +22,10 @@ This repository showcases clean, generic implementations of automation tools des
 * **Languages:** Python, MATLAB/Simulink
 * **Architectures:** Parametric variants management, API processing data pipelines
 * **Target Industries:** Automotive, Commercial Vehicles (Nutzfahrzeugtechnik), EV Component Manufacturing
+
+### 2. Parametric Design-of-Experiments (DoE) Matrix Generator
+* **Directory:** `/parametric_doe/`
+* **Language:** MATLAB (.m)
+* **Core Functionality:** Implements a discrete full-factorial design matrix generation system. It systematically sweeps through defined geometric constraints (length, width, thickness) to output clean configuration data. This data directly replicates the inputs required by CAD APIs (like Creo Web.Link or Mapkeys) to build 3D variants automatically.
+* **Key Skills Shown:** Data array manipulation, matrix flattening, parametric optimization logic.
+
