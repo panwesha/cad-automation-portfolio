@@ -57,4 +57,3 @@ if __name__ == "__main__":
     handler = DinBomHandler(input_data_path="simulated_cad_metadata.json")
     handler.load_assembly_data()
     handler.export_to_din_csv()
-  Add DIN-compliant BOM automation script
